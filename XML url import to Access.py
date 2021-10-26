@@ -1,12 +1,14 @@
 
 #import xml file from skybitz website
+#
 # source is below
+
 # from https://stackoverflow.com/questions/51976146/python-insert-into-ms-access-table
 import xml.etree.ElementTree as ET
 
 from urllib.request import urlopen
 
-import sys, os, pyodbc
+import sys, os, pyodbc 
 
 conn_str = (
     r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};'
