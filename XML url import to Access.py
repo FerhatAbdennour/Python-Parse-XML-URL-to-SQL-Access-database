@@ -5,6 +5,7 @@
 import xml.etree.ElementTree as ET
 
 from urllib.request import urlopen
+#you need to import those libraries using pip install command
 
 import sys, os, pyodbc
 
